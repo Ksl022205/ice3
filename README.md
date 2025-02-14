@@ -1,5 +1,8 @@
 # ECE 281 ICE 3: Ripple-Carry Adder with Top Level Design
 
+## Documentation
+C3C Keelie O'Hollaren helped me understand how to draw a proper entity design. She explained in details how to put all of my work from my computer onto an entity design without showing me her design at all.
+
 This is a **template** repository.
 
 [ICE 3 instructions](https://usafa-ece.github.io/ece281-book/ICE/ICE3.html)
