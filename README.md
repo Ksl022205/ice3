@@ -8,6 +8,7 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 
 Tested on Vivado 2024.2
 
+Waveform
 <img width="750" alt="{163522D9-1979-4567-8592-56CE99BF86B5}" src="https://github.com/user-attachments/assets/8ffa0d46-8621-45e6-bb71-8b3c8a7aed20" />
 
 
