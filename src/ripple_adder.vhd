@@ -26,7 +26,6 @@ architecture Behavioral of ripple_adder is
 
     -- Declare signals here
         signal w_carry  : STD_LOGIC_VECTOR(3 downto 0); -- for ripple between adders
-    signal carry : STD_LOGIC_VECTOR (3 downto 0);
 begin
 -- PORT MAPS --------------------
     full_adder_0: full_adder
@@ -45,5 +44,21 @@ begin
         Cin   => w_carry(0),
         S     => S(1),
         Cout  => w_carry(1)
+    );
+    full_adder_2: full_adder
+    port map(
+        A     => A(2),
+        B     => B(2),
+        Cin   => w_carry(1),
+        S     => S(2),
+        Cout  => w_carry(2)
+    );
+    full_adder_3: full_adder
+    port map(
+        A     => A(3),
+        B     => B(3),
+        Cin   => w_carry(2),
+        S     => S(3),
+        Cout  => Cout
     );
 end Behavioral;
