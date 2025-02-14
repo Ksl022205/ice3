@@ -11,10 +11,10 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 
 Tested on Vivado 2024.2
 
-Waveform
+##Waveform
 <img width="750" alt="{163522D9-1979-4567-8592-56CE99BF86B5}" src="https://github.com/user-attachments/assets/8ffa0d46-8621-45e6-bb71-8b3c8a7aed20" />
 
-Design
+##Design
 <img width="627" alt="{5A3FE007-8DEC-47A2-8148-3ED47E4317C0}" src="https://github.com/user-attachments/assets/da2ea6a3-4a76-4d04-8589-0a49740ec7a9" />
 
 
